@@ -1,11 +1,11 @@
 public class Estudiant extends Persona {
     private double nota;
 
-    private void posarNota(double nota){
+    public void posarNota(double nota){
         this.nota=nota;
     }
 
-    public double obtenirNota() {
-        return this.nota;
+    public String obtenirDades() {
+        return super.obtenirDades() + " Nota: " + this.nota;
     }
 }

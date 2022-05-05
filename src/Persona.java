@@ -5,12 +5,12 @@ public class Persona {
     public void canviarNom(String nom) {
         this.nom=nom;
     }
-    private void assignarDni(String dni) {
+    public void assignarDni(String dni) {
         this.dni=dni;
     }
 
     public String obtenirDades() {
-        return "Persona amb nom: " + this.nom + " i DNI: 1234";
+        return "Persona amb nom: " + this.nom + " i DNI: " + this.dni;
     }
 
 }
