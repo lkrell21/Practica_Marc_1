@@ -13,8 +13,12 @@ public class Persona {
         }
     }
 
-    public String obtenirDades() {
-        return "Persona amb nom: " + this.nom + " i DNI: " + this.dni;
+    public String obtenirDades() throws Exception{
+        if (this.dni == null || this.nom == null) {
+            throw new Exception("Error Dades");
+        } else {
+            return "Persona amb nom: " + this.nom + " i DNI: " + this.dni;
+        }
     }
 
 }

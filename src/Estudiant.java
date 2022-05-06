@@ -11,7 +11,7 @@ public class Estudiant extends Persona {
         this.nota=nota;
     }
 
-    public String obtenirDades() {
+    public String obtenirDades() throws Exception {
         return super.obtenirDades() + " Nota: " + this.nota;
     }
 }

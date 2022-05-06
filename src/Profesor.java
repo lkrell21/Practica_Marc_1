@@ -10,7 +10,7 @@ public class Profesor extends Persona {
     }
 
 
-    public String obtenirDades() {
+    public String obtenirDades() throws Exception {
         return super.obtenirDades() + " Sou: " + this.sou;
     }
 

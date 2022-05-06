@@ -10,7 +10,7 @@ public class Main {
         Estudiant estudiant = new Estudiant();
         estudiant.canviarNom("Carlos");
         estudiant.assignarDni("47473821P");
-        estudiant.posarNota(2);
+        estudiant.posarNota(-1);
         System.out.println(estudiant.obtenirDades());
 
         Persona zapato = new Persona();
@@ -25,7 +25,7 @@ public class Main {
         System.out.println(armario.obtenirDades());
 
         Profesor oriol = new Profesor();
-        oriol.canviarSou(2500);
+        oriol.canviarSou(3200);
         oriol.canviarNom("Oriol");
         oriol.assignarDni("32678502X");
         System.out.println(oriol.obtenirDades());
