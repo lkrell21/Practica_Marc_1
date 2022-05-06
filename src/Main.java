@@ -25,7 +25,7 @@ public class Main {
         System.out.println(armario.obtenirDades());
 
         Profesor oriol = new Profesor();
-        oriol.canviarSou(3200);
+        oriol.canviarSou(2500);
         oriol.canviarNom("Oriol");
         oriol.assignarDni("32678502X");
         System.out.println(oriol.obtenirDades());
