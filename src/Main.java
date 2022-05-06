@@ -10,13 +10,13 @@ public class Main {
         Estudiant estudiant = new Estudiant();
         estudiant.canviarNom("Carlos");
         estudiant.assignarDni("47473821P");
-        estudiant.posarNota(-1);
+        estudiant.posarNota(3);
         System.out.println(estudiant.obtenirDades());
 
         Persona zapato = new Persona();
         zapato.canviarNom("Antonio");
         zapato.assignarDni("43627852X");
-        //error DNI zapato.assignarDni("43627852P");
+        //zapato.assignarDni("43627852P");
         System.out.println(zapato.obtenirDades());
 
         Persona armario = new Persona();
