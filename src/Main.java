@@ -11,6 +11,8 @@ public class Main {
         estudiant.canviarNom("Carlos");
         estudiant.assignarDni("47473821P");
         estudiant.posarNota(3);
+        //estudiant.posarNota(34);
+        //estudiant.posarNota(-34);
         System.out.println(estudiant.obtenirDades());
 
         Persona zapato = new Persona();
@@ -26,6 +28,8 @@ public class Main {
 
         Profesor oriol = new Profesor();
         oriol.canviarSou(2500);
+        //oriol.canviarSou(-4);
+        //oriol.canviarSou(5134278);
         oriol.canviarNom("Oriol");
         oriol.assignarDni("32678502X");
         System.out.println(oriol.obtenirDades());
