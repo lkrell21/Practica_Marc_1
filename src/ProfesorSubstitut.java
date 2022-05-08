@@ -10,7 +10,7 @@ public class ProfesorSubstitut extends Profesor {
     }
 
     public String obtenirDades() throws Exception {
-        return super.obtenirDades() + " inici: " + this.datainici + "  final: " + this.dataFI;
+        return super.obtenirDades() + " inici: " + this.datainici + " final: " + this.dataFI;
     }
 
 }

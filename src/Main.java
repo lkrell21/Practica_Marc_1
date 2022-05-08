@@ -35,8 +35,9 @@ public class Main {
         System.out.println(oriol.obtenirDades());
 
         ProfesorSubstitut marc = new ProfesorSubstitut();
-        Date datainici = new Date(1950, 43, 0);
-        Date dataFI  = new Date(1628, 28, -4);
+        Date datainici = new Date(1533, 4, 11);
+        Date dataFI  = new Date(1733, 43, 12);
+        marc.assignarSubstitucio(datainici, dataFI);
         marc.canviarSou(2500);
         marc.canviarNom("Marc");
         marc.assignarDni("65899324M");
